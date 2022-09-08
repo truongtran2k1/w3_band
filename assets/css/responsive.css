@@ -1,0 +1,104 @@
+@media (min-width: 740px) and (max-width: 1023px){
+    .footer-icon a{
+        padding: 0 12px;
+        font-size: 30px;
+    }
+    .footer-p{
+        font-size: 30px;
+    }
+}
+@media (max-width: 739px){
+    #nav{
+        display: block;
+        position: relative;
+    }
+    #nav>li:first-child{
+        display: inline-block;
+    }
+    #nav li{
+        display: block;
+    }
+   
+    .menu{  
+        position: absolute;
+        top: 0;
+        right: 0;
+        float: right;
+        padding: 0 16px;
+        line-height: 46px;
+    }
+    
+    .ti-menu {
+        color: #fff;
+        font-size: 20px;
+            
+    }
+
+
+    .menu:hover{
+        background-color: #ccc;
+    }
+
+    .menu:hover .ti-menu{
+       color: #000;
+    } 
+    
+     
+    #header{    
+        overflow: hidden;
+    }
+   /*khôi phục mặc định*/
+    #nav .subnav{ /*làm cho thẻ subnav trở về trạng thái ban đầu làm con bình
+        thường  của header không bị nổi lên nữa nên thuộc tính overflow: hidden sẽ không làm ẩn nó*/
+        position: initial; 
+       
+    }
+    #nav .subnav a{
+        background-color: rgb(53, 46, 46);
+        color: #fff;
+        padding-left: 35px;
+    } 
+    
+    #content .anh .anh1 {
+        margin-top: 32px;
+        clear: left;
+        width: 100%;
+        
+    }
+
+    
+    #content .tour1{
+       
+        clear: left;
+        width: 350px;
+        width: 100%;
+        margin-top: 25px;
+  
+    }
+    .col-half{
+        width: 100%;
+    }
+    form{
+        margin-top: 20px;
+    }
+    #content .muave,  .content-1 .gui {
+        width: 100%;
+    }
+    
+    .footer-icon a{
+        padding: 0 12px;
+        font-size: 25px;
+    }
+    .footer-p{
+        font-size: 25px;
+    }
+    .form-name{
+        margin-top: 10px;
+    }
+    .row{
+        margin-top: 0;
+    }
+    video{
+        padding: 0 20px;
+    }
+}
